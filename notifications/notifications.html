@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">  
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="./notifications.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id ="main-notificacions">
+            <script>
+                
+                window.addEventListener('message', (event) => {
+
+                    let textIndication = event.data
+                        if (textIndication !== undefined) {
+                            
+                            let element = $(`
+                            <div class ="school-notifications">${textIndication.TextExam}</div>
+                            `);
+                            $('#main-notificacions').prepend(element);
+
+                            setTimeout (function() {
+                                $(element).remove();
+                            }, 8000)
+                        }
+
+                });
+            </script>
+        </div>
+    </body>
+</html>
