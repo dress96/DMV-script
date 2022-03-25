@@ -6,7 +6,7 @@ This script don't include a typical fivem roleplay driving test or pratical test
 
 As for the summary characteristics, they are the following:
 
-- Only use in ESX frameword but you can modific to use in QBus Framework if you want. 
+- Only use in ESX frameword but you can modific to use in Qbus Framework if you want. 
 - Don't include driving test exam only the practise part.
 - The practise part is more realistic a diference or another automatic DMV script.
 - It has been optimized although it can be even more.
