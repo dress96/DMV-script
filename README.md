@@ -1,4 +1,4 @@
-# Fivem - Driving license exam script
+# FiveM - Driving license exam script
 
 This is a first script where I learn the basic concept use the in LUA languaje and how this implemented in Fivem platform and praticing basic concepts to create a NUI in fivem using HTML,CSS and JavaScript. 
 
